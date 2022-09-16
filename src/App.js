@@ -31,7 +31,7 @@ function App() {
 
         <div className='Navbar'>
             <nav className="navbar navbar-expand-lg navbar">
-                <a className="navbar-brand" href=""><img className="img-fluid" src="/images/icon/favicon.ico" alt=""/></a>
+                <a className="navbar-brand" href=""><img className="img-fluid" src="/images/menuIcon.png" alt=""/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i className="fa-solid fa-align-justify"></i></button>
                     
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -53,6 +53,7 @@ function App() {
                         <div className="dropdown-divider">
                         </div>
                         <a className="dropdown-item" href="mailto:eduardo.pontes2801@gmail.com">Email me</a>
+                        <a className="dropdown-item" href="https://api.whatsapp.com/send?phone=5561985019585&text=Olá%20Eduardo,%20">WhatsApp</a>
                         <div className="dropdown-divider">
                         </div>
                         <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer" title="Meu currículo">Meu currículo</a>
@@ -86,14 +87,14 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  Sou estudante de Ciências da Computação na instituição de ensino superior Universidade Católica de Brasília - UCB (8º semestre), interesse relacionado ao desenvolvimento, noções de programação, front-end e back-end.
+                  Sou estudante de Ciências da Computação na instituição de ensino superior Universidade Católica de Brasília - UCB (8º semestre), interesses relacionados ao desenvolvimento, noções de programação, front-end e back-end.
                 </p>
               </div>
             </div>
 
             <div className="row">
               <div className="col-12 text-center">
-                <img className="img-fluid" src="/images/673a70fa-110d-4c5b-a800-28b4f88e5357.webp" alt=""/>
+                <img className="img-fluid" src="/images/3bbed2c7-7f0a-497a-aa0b-57652d31cafd.png" alt="" width={355}/>
               </div>
             </div>
           </div>
@@ -112,18 +113,18 @@ function App() {
               <div className="row">
                 <div className="col-12">
                   <p>
-                    Desenvolvi e sigo desenvolvendo habilidades referentes seguintes linguagens e frameworks:
+                    Desenvolvi e sigo desenvolvendo habilidades referentes as seguintes linguagens e frameworks:
                   </p>
                 </div>
               </div>
               
               <div className="row">
                 <div className="col-12 text-center">
-                  <i className="fa-brands fa-html5" title="HTML 5"></i>
-                  <i className="fa-brands fa-css3-alt" title="CSS 3"></i>
                   <i className="fa-brands fa-js-square" title="JavaScript"></i>
-                  <i className="fa-brands fa-node" title="Node.js"></i>
-                  <i className="fa-brands fa-react" title="React.js"></i>
+                  <i className="fa-brands fa-node" title="Node"></i>
+                  <i className="fa-brands fa-react" title="React"></i>
+                  <i className="fa-brands fa-html5" title="HTML5"></i>
+                  <i className="fa-brands fa-css3-alt" title="CSS3"></i>
                   <i className="fa-brands fa-java" title="Java"></i>
                   <i className="fa-brands fa-c" title="C"></i>
                   <i className="fa-solid fa-database" title="MySQL Relational Database Management System"></i>
@@ -143,10 +144,10 @@ function App() {
                   <li>Desenvolvimento responsivo (mobile view)</li>
                   <li>Analise e projeto de softwares (documentação)</li>
                   <li>
-                    Web com Javascript, Angular, React, Next, Vue, Node, HTML, CSS, jQuery, Bootstrap, Webpack, Gulp e MySQL
+                    Web - Javascript, Angular, React, Next, Vue, Node, HTML, CSS, jQuery, Bootstrap, Webpack, Gulp e MySQL.
                   </li>
                   <li>
-                    Fundamentos Java, Orientação a Objeto, Programação Funcional, MySQL, MongoDB, Spring Boot, JavaFX, JPA e Hibernate
+                    Fundamentos Java - POO, Programação Funcional, MongoDB, Spring Boot, JavaFX, JPA e Hibernate.
                   </li>
                 </ul>
               </div>
@@ -209,15 +210,18 @@ function App() {
                 <a href="mailto:eduardo.pontes2801@gmail.com" title="Entre em contato comigo por e-mail">
                   <i className="fa-brands fa-google"></i>
                 </a>
+                <a href="https://api.whatsapp.com/send?phone=5561985019585&text=Olá%20Eduardo,%20" target="_blank" rel="noreferrer" title="Entre em contato comigo pelo WhatsApp">
+                  <i className="fa-brands fa-whatsapp"></i>
+                </a>
                 <a href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer" title="Meu currículo">
-                  <i class="fa-solid fa-file"></i>
+                  <i className="fa-solid fa-file"></i>
                 </a>
               </div>
             </div>
                 
             {/* Imagem de perfil */}
             <div className="col-md-4 col-12 text-center mt-md-0 mt-2">
-              <img className="img-fluid float-center imagem-perfil" src="/images/74a55920-83b8-463a-bd37-50141cebea59.webp" alt=""/>
+              <img className="img-fluid float-center imagem-perfil" src="/images/86f21215-633f-4e41-ab5c-2a1f0118572a.png" alt="" width={255}/>
             </div>
           </div>
           <hr/>

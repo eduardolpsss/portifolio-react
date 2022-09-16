@@ -144,6 +144,7 @@ export default createGlobalStyle `
   .fa-github,
   .fa-linkedin,
   .fa-google,
+  .fa-whatsapp,
   .fa-file {
     font-size: 35px;
     color: ${({ theme }) => theme.paragrafo};
@@ -162,6 +163,7 @@ export default createGlobalStyle `
   .fa-github:hover,
   .fa-linkedin:hover,
   .fa-google:hover,
+  .fa-whatsapp:hover,
   .fa-file:hover {
     transform: scale(1.5);
   }
