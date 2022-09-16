@@ -6,6 +6,6 @@
 <br>
 
 <div align="center">
-    <img src="https://user-images.githubusercontent.com/64506852/188530549-0d2e84eb-a859-471e-9ea9-b1de0a79070f.jpg"/>
+    <img src="https://user-images.githubusercontent.com/64506852/190694448-d701b96e-d994-4a00-a0dd-2a7e4ba52bf8.png"/>
 </div>
 
