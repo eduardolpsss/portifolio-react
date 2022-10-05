@@ -97,6 +97,18 @@ export default createGlobalStyle `
     line-height: 1.8em;
     margin-top: 1em;
   }
+
+  .paragrafoCard{
+    color: ${({ theme }) => theme.paragrafoCard};
+  }
+
+  .backgroundCard{
+    background-color: ${({ theme }) => theme.backgroundCard};
+  }
+
+  .card{
+    min-height: 630px;
+  }
   
   .fa-solid,
   .fa-location-dot {

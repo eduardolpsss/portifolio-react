@@ -5,6 +5,7 @@ import { lightTheme, darkTheme } from "./theme";
 import GlobalTheme from "./globals";
 import BotaoTop from "./BotaoTop";
 import Typewriter from "./Typewriter";
+import Repositories from "./Repositories";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -37,27 +38,27 @@ function App() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul className="navbar-nav mr-auto">
                     <li className="nav-item">
-                        <a className="nav-link" href="#habilidades">Habilidades</a>
+                        <a className="nav-link" href="#habilidades">Abilities</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#projetos">Projetos</a>
+                        <a className="nav-link" href="#projetos">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#contato">Contato</a>
+                        <a className="nav-link" href="#contato">Contact Information</a>
                     </li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Redes</a>  
+                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Networks</a>  
                         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="https://github.com/eduardolpsss" target="_blank" rel="noreferrer">Github</a>
-                        <a className="dropdown-item" href="https://www.linkedin.com/in/eduardolpsss/" target="_blank" rel="noreferrer">Linkedin</a>
-                        <div className="dropdown-divider">
+                          <a className="dropdown-item" href="https://github.com/eduardolpsss" target="_blank" rel="noreferrer">Github</a>
+                          <a className="dropdown-item" href="https://www.linkedin.com/in/eduardolpsss/" target="_blank" rel="noreferrer">Linkedin</a>
+                          <div className="dropdown-divider">
+                          </div>
+                          <a className="dropdown-item" href="mailto:eduardo.pontes2801@gmail.com">Email me</a>
+                          <a className="dropdown-item" href="https://api.whatsapp.com/send?phone=5561985019585&text=Olá%20Eduardo,%20">WhatsApp</a>
                         </div>
-                        <a className="dropdown-item" href="mailto:eduardo.pontes2801@gmail.com">Email me</a>
-                        <a className="dropdown-item" href="https://api.whatsapp.com/send?phone=5561985019585&text=Olá%20Eduardo,%20">WhatsApp</a>
-                        <div className="dropdown-divider">
-                        </div>
-                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer" title="Meu currículo">Meu currículo</a>
-                        </div>
+                    </li>
+                    <li className="nav-item">
+                    <a className="nav-link" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer">My Resume</a>
                     </li>
                   </ul>
 
@@ -87,7 +88,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  Sou estudante de Ciências da Computação na instituição de ensino superior Universidade Católica de Brasília - UCB (8º semestre), interesses relacionados ao desenvolvimento, noções de programação, front-end e back-end.
+                  I'm a student of Computer Science at the higher education institution Universidade Católica de Brasília - UCB (8th semester), interests related to development, programming notions, front-end and back-end.
                 </p>
               </div>
             </div>
@@ -106,14 +107,14 @@ function App() {
               <hr/>
               <div className="row">
                 <div className="col-12 text-center">
-                  <h1>Habilidades</h1>
+                  <h1>Abilities</h1>
                 </div>
               </div>
               
               <div className="row">
                 <div className="col-12">
                   <p>
-                    Desenvolvi e sigo desenvolvendo habilidades referentes as seguintes linguagens e frameworks:
+                    I have developed and continue to develop skills in the following languages and frameworks:
                   </p>
                 </div>
               </div>
@@ -134,20 +135,20 @@ function App() {
               <div className="row">
                 <div className="col-12">
                 <p>
-                  Métodos de trabalho e atvididades desenvolvidas:
+                  Working methods and developed activities:
                 </p>
                 
                 <ul>
-                  <li>Métodos ágeis (sprints) com GitHub Projects, Jyra e Trello</li>
+                  <li>Agile methods (sprints) with GitHub Projects, Jyra and Trello</li>
                   <li>Challenge Based Learning (CBL)</li>
-                  <li>UX/UI com Figma</li>
-                  <li>Desenvolvimento responsivo (mobile view)</li>
-                  <li>Analise e projeto de softwares (documentação)</li>
+                  <li>UX/UI with Figma</li>
+                  <li>Responsive development (mobile view)</li>
+                  <li>Software analysis and design (documentation)</li>
                   <li>
-                    Web - Javascript, Angular, React, Next, Vue, Node, HTML, CSS, jQuery, Bootstrap, Webpack, Gulp e MySQL.
+                    Web - Javascript, Angular, React, Next, Vue, Node, HTML, CSS, jQuery, Bootstrap, Webpack, Gulp and MySQL.
                   </li>
                   <li>
-                    Fundamentos Java - POO, Programação Funcional, MongoDB, Spring Boot, JavaFX, JPA e Hibernate.
+                    Java fundamentals - POO, Functional Programming, MongoDB, Spring Boot, JavaFX, JPA and Hibernate.
                   </li>
                 </ul>
               </div>
@@ -162,14 +163,14 @@ function App() {
             
             <div className="row">
               <div className="col-12 text-center">
-                <h1>Projetos</h1>
+                <h1>Projects</h1>
               </div>
             </div>
             
             <div className="row">
               <div className="col-12">
                 <p>
-                  Os projetos que produzi e participei estão atualmente hospedados no meu GitHub.
+                  OThe projects I have produced and participated in are currently hosted on my GitHub (some repos are currently private).
                 </p>
                 <br/>
               </div>
@@ -178,11 +179,23 @@ function App() {
             <div className="row">
               <div className="col-12 text-center">
                 <a href="https://github.com/eduardolpsss?tab=repositories" target="_blank" rel="noreferrer">
-                  <button type="button" className="btn btn-dark">Ir para os meus repositórios</button>
+                  <button type="button" className="btn btn-dark">Go to my repositories</button>
                 </a>
-                <br/><br/>
               </div>
             </div>
+
+            <div className="row">
+              <div className="col-12">
+                <p>
+                  Here are some details about my repositories:
+                </p>
+                <br/>
+              </div>
+            </div>
+
+            <Repositories/>
+            
+            <br/><br/>
           </div>
         </section>
 
@@ -191,13 +204,17 @@ function App() {
         <div className="container" id="contato">
           <hr/>
           <div className="row">
+              <div className="col-12 text-center">
+                <h1>Contact Information</h1>
+              </div>
+            </div>
+          <div className="row">
             <div className="col-md-8 col-12">
-              <h1>Entre em contato comigo!</h1>
               <p>
                 <i className="fa-solid fa-location-dot"></i> Brasília - DF/Brasil
               </p>
               <p>
-                Sigo sempre aprendendo, você pode entrar em contato comigo pelas seguintes redes:
+                I am always learning, you can get in touch with me through the following networks:
               </p>
               
               <div className="text-center">
@@ -207,13 +224,13 @@ function App() {
                 <a href="https://www.linkedin.com/in/eduardolpsss/" target="_blank" rel="noreferrer" title="LinkedIn">
                   <i className="fa-brands fa-linkedin"></i>
                 </a>
-                <a href="mailto:eduardo.pontes2801@gmail.com" title="Entre em contato comigo por e-mail">
+                <a href="mailto:eduardo.pontes2801@gmail.com" title="Send me an e-mail">
                   <i className="fa-brands fa-google"></i>
                 </a>
-                <a href="https://api.whatsapp.com/send?phone=5561985019585&text=Olá%20Eduardo,%20" target="_blank" rel="noreferrer" title="Entre em contato comigo pelo WhatsApp">
+                <a href="https://api.whatsapp.com/send?phone=5561985019585&text=Olá%20Eduardo,%20%20" target="_blank" rel="noreferrer" title="Get in touch with me through WhatsApp">
                   <i className="fa-brands fa-whatsapp"></i>
                 </a>
-                <a href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer" title="Meu currículo">
+                <a href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer" title="My Resume">
                   <i className="fa-solid fa-file"></i>
                 </a>
               </div>
@@ -234,7 +251,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  Feito por Eduardo Pontes
+                  Made by Eduardo Pontes
                 </p>
               </div>
             </div>
