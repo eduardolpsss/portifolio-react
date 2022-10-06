@@ -114,7 +114,7 @@ export default createGlobalStyle `
   .fa-location-dot {
     color: ${({ theme }) => theme.icone};
     font-size: 1em;
-    cursor: auto;
+    cursor: pointer;
   }
   
   i {
@@ -236,4 +236,26 @@ export default createGlobalStyle `
   label:active:after {
     width: 45px;
   }
+
+  /* Works on Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: ${({ theme }) => theme.h1}; ${({ theme }) => theme.body};;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: ${({ theme }) => theme.body};
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.h1};
+    
+    border: 3px solid ${({ theme }) => theme.h1};
+  }
+  
 `;

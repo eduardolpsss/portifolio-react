@@ -58,7 +58,7 @@ function App() {
                         </div>
                     </li>
                     <li className="nav-item">
-                    <a className="nav-link" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer">My Resume</a>
+                    <a className="nav-link" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer"><b>My Resume</b></a>
                     </li>
                   </ul>
 
@@ -121,12 +121,12 @@ function App() {
               
               <div className="row">
                 <div className="col-12 text-center">
+                  <i className="fa-brands fa-java" title="Java"></i>
                   <i className="fa-brands fa-js-square" title="JavaScript"></i>
-                  <i className="fa-brands fa-node" title="Node"></i>
-                  <i className="fa-brands fa-react" title="React"></i>
+                  <i className="fa-brands fa-node" title="Node.js"></i>
+                  <i className="fa-brands fa-react" title="React.js"></i>
                   <i className="fa-brands fa-html5" title="HTML5"></i>
                   <i className="fa-brands fa-css3-alt" title="CSS3"></i>
-                  <i className="fa-brands fa-java" title="Java"></i>
                   <i className="fa-brands fa-c" title="C"></i>
                   <i className="fa-solid fa-database" title="MySQL Relational Database Management System"></i>
                 </div>
@@ -145,7 +145,7 @@ function App() {
                   <li>Responsive development (mobile view)</li>
                   <li>Software analysis and design (documentation)</li>
                   <li>
-                    Web - Javascript, Angular, React, Next, Vue, Node, HTML, CSS, jQuery, Bootstrap, Webpack, Gulp and MySQL.
+                    Web - Javascript, Angular, React.js, Next, Vue.js, Node.js, HTML, CSS, jQuery, Bootstrap, Webpack, Gulp and MySQL.
                   </li>
                   <li>
                     Java fundamentals - POO, Functional Programming, MongoDB, Spring Boot, JavaFX, JPA and Hibernate.
@@ -170,7 +170,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  OThe projects I have produced and participated in are currently hosted on my GitHub (some repos are currently private).
+                  The projects I have produced and participated in are currently hosted on my GitHub (some repos are currently private).
                 </p>
                 <br/>
               </div>
@@ -187,7 +187,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  Here are some details about my repositories:
+                  Here are details about some of my repositories on GitHub:
                 </p>
                 <br/>
               </div>
@@ -205,7 +205,7 @@ function App() {
           <hr/>
           <div className="row">
               <div className="col-12 text-center">
-                <h1>Contact Information</h1>
+                <h1>Contact Information and Resume</h1>
               </div>
             </div>
           <div className="row">
@@ -216,6 +216,7 @@ function App() {
               <p>
                 I am always learning, you can get in touch with me through the following networks:
               </p>
+
               
               <div className="text-center">
                 <a href="https://github.com/eduardolpsss" target="_blank" rel="noreferrer" title="GitHub">
@@ -230,9 +231,7 @@ function App() {
                 <a href="https://api.whatsapp.com/send?phone=5561985019585&text=Olá%20Eduardo,%20%20" target="_blank" rel="noreferrer" title="Get in touch with me through WhatsApp">
                   <i className="fa-brands fa-whatsapp"></i>
                 </a>
-                <a href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer" title="My Resume">
-                  <i className="fa-solid fa-file"></i>
-                </a>
+                <a href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer" title="My Resume"><i className="fa-solid fa-file"></i></a>
               </div>
             </div>
                 
