@@ -1,7 +1,7 @@
 # portifolio-react
 // Feito por Eduardo Pontes
 
-<a href="https://eduardopontes.netlify.app/">Personal portfolio</a> made with React.js to help document education, work samples and skills. 
+<a href="https://eduardopontes.netlify.app/">Personal portfolio</a> made using the framework provided by React.js to help document the development of repositories on GitHub as well as education, work samples and skills.
 
 <br>
 
