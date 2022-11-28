@@ -118,7 +118,7 @@ class Repositories extends React.Component{
                         <div className="card-body">
                             <h5 className="text-center card-title">Crud System Using JSON Server and React</h5>
                             <div className="text-center">
-                                <img className="img-fluid float-center" src="/images/repoImgs/webCrudApp.png" alt="" width={255} height={255}/>
+                                <img className="img-fluid float-center" src="/images/repoImgs/reactWithJsonServer.png" alt="" width={255} height={255}/>
                             </div>
                             <p className="card-text paragrafoCard">API REST application developed with React.js on the front-end and a JSON Server back-end.</p>
                             <div className="text-center">
@@ -135,7 +135,7 @@ class Repositories extends React.Component{
                         <div className="card-body">
                             <h5 className="text-center card-title">Exploratory analysis and use of AI in Enem microdata</h5>
                             <div className="text-center">
-                                <img className="img-fluid float-center" src="/images/repoImgs/wordleCloneApp.png" alt="" width={255} height={255}/>
+                                <img className="img-fluid float-center" src="/images/repoImgs/Projeto_IA_DadosEnem.png" alt="" width={255} height={255}/>
                             </div>
                             <p className="card-text paragrafoCard">In this project, knowledge in data science was used to produce an exploratory graphic analysis and map the Inep Microdata for the years 2020 and 2021 of Enem, later the application of artificial intelligence for graphic plots with data crossing was made possible.</p>
                             <div className="text-center">
