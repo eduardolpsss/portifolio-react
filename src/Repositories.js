@@ -23,13 +23,13 @@ class Repositories extends React.Component{
                 </div>
                 <div className="col">
                     <div className="card text-white backgroundCard">
-                        <h5 className="text-center card-header">processoSeletivoHeptaCrud</h5>
+                        <h5 className="text-center card-header">javaVueCrudSystem</h5>
                         <div className="card-body">
                             <h5 className="text-center card-title">Java and Vue.js Crud System</h5>
                             <div className="text-center">
                                 <img className="img-fluid float-center" src="/images/repoImgs/processoSeletivoHeptaCrud.png" alt="" width={255} height={255}/>
                             </div>
-                            <p className="card-text paragrafoCard">System developed specifically for the selection process of Java Jr. at Hepta Tecnologia, I used the Java language with SpringBoot and other dependencies on its back-end and Vue.js on its front-end.</p>
+                            <p className="card-text paragrafoCard">For this project I used the build environment automation tool (Maven), SpringBoot micro service and other dependencies on the back-end, on the front-end I used Vue with Vuetify, a Vue UI Library with beautifully handcrafted Material Components.</p>
                             <div className="text-center">
                                 <a href="https://github.com/eduardolpsss/processo-seletivo-hepta-crud" target="_blank" rel="noreferrer" className="btn btn-dark">Go to this repository</a>
                             </div>
@@ -104,6 +104,42 @@ class Repositories extends React.Component{
                             <p className="card-text paragrafoCard">Clone of the game Wordle made with HTML, CSS (Animate.css) and JavaScript. An API (WordsAPI) was used through Node.js to request the words used in the game, to run it, a key is needed. the Wordle clone was developed together with a registration and ranking system of players for the web development subject.</p>
                             <div className="text-center">
                                 <a href="https://github.com/eduardolpsss/wordleCloneApp" target="_blank" rel="noreferrer" className="btn btn-dark">Go to this repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                </div>
+            </div>
+
+            <div className="row">
+                <div className="col">
+                    <div className="card text-white backgroundCard">
+                        <h5 className="text-center card-header">reactWithJsonServer</h5>
+                        <div className="card-body">
+                            <h5 className="text-center card-title">Crud System Using JSON Server and React</h5>
+                            <div className="text-center">
+                                <img className="img-fluid float-center" src="/images/repoImgs/webCrudApp.png" alt="" width={255} height={255}/>
+                            </div>
+                            <p className="card-text paragrafoCard">API REST application developed with React.js on the front-end and a JSON Server back-end.</p>
+                            <div className="text-center">
+                                <a href="https://github.com/eduardolpsss/reactWithJsonServer" target="_blank" rel="noreferrer" className="btn btn-dark">Go to this repository</a>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                </div>
+
+                <div className="col">
+                    <div className="card text-white backgroundCard">
+                        <h5 className="text-center card-header">projeto_IA_Dados_Enem</h5>
+                        <div className="card-body">
+                            <h5 className="text-center card-title">Exploratory analysis and use of AI in Enem microdata</h5>
+                            <div className="text-center">
+                                <img className="img-fluid float-center" src="/images/repoImgs/wordleCloneApp.png" alt="" width={255} height={255}/>
+                            </div>
+                            <p className="card-text paragrafoCard">In this project, knowledge in data science was used to produce an exploratory graphic analysis and map the Inep Microdata for the years 2020 and 2021 of Enem, later the application of artificial intelligence for graphic plots with data crossing was made possible.</p>
+                            <div className="text-center">
+                                <a href="https://github.com/eduardolpsss/Projeto_IA_DadosEnem" target="_blank" rel="noreferrer" className="btn btn-dark">Go to this repository</a>
                             </div>
                         </div>
                     </div>
