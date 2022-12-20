@@ -115,7 +115,7 @@ export default createGlobalStyle `
   }
 
   .card{
-    min-height: 630px;
+    min-height: 655px;
   }
   
   .fa-solid,

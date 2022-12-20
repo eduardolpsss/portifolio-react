@@ -24,13 +24,13 @@ class Repositories extends React.Component{
 
                 <div className="col">
                     <div className="card text-white backgroundCard">
-                        <h5 className="text-center card-header">vitrine_fullstackApp_python_react</h5>
+                        <h5 className="text-center card-header">fullstackApp_python_react</h5>
                         <div className="card-body">
-                            <h5 className="text-center card-title">Used Cars - Fullstack RESTful API</h5>
+                            <h5 className="text-center card-title">Flask and React RESTful API</h5>
                             <div className="text-center">
-                                <img className="img-fluid float-center" src="/images/repoImgs/vitrine_fullstackApp_python_react.png" alt="" width={250}/>
+                                <img className="img-fluid float-center" src="/images/repoImgs/vitrine_fullstackApp_python_react.png" alt="" width={255} height={255}/>
                             </div>
-                            <p className="card-text paragrafoCard">Fullstack RESTful API developed using Python on the server-side, the Flask microframework provides a built-in development server. The client-side was developed with React using the MUI component library, the project also relies on Next.js and Axios API Reference for the requests. As for the database, MongoDB was used along with its visualization tools.</p>
+                            <p className="card-text paragrafoCard">Developed using Python on the server-side, Flask provides a built-in development server. Client-side with React using the MUI component library and other dependencies. As for the database, MongoDB was used along with its visualization tools.</p>
                             <div className="text-center">
                                 <a href="https://github.com/eduardolpsss/vitrine_fullstackApp_python_react" target="_blank" rel="noreferrer" className="btn btn-dark">Go to this repository</a>
                             </div>
@@ -102,14 +102,14 @@ class Repositories extends React.Component{
                             <div className="text-center">
                                 <img className="img-fluid float-center" src="/images/repoImgs/Projeto_IA_DadosEnem.png" alt="" width={255} height={255}/>
                             </div>
-                            <p className="card-text paragrafoCard">In this project, knowledge in data science was used to produce an exploratory graphic analysis and map the Inep Microdata for the years 2020 and 2021 of Enem, later the application of artificial intelligence for graphic plots with data crossing was made possible.</p>
+                            <p className="card-text paragrafoCard">In this project, knowledge in data science was used to produce an exploratory graphic analysis and map the Inep Microdata for the years 2020 and 2021 of Enem, later the application of artificial intelligence for graphic plots with data crossing was made possible. Project presented for the artificial intelligence subject along with its documentation.</p>
                             <div className="text-center">
                                 <a href="https://github.com/eduardolpsss/Projeto_IA_DadosEnem" target="_blank" rel="noreferrer" className="btn btn-dark">Go to this repository</a>
                             </div>
                         </div>
-                    </div>
+                    </div> 
+                    <br/> 
                 </div>
-                <br/>
             </div>
 
             <div className="row">
