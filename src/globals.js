@@ -25,8 +25,16 @@ export default createGlobalStyle `
   }
 
   p {
-      color: ${({ theme }) => theme.paragrafo};
-    }
+    color: ${({ theme }) => theme.paragrafo};
+  }
+
+  a {
+    color: ${({ theme }) => theme.a};
+  }
+
+  a:hover {
+    color: ${({ theme }) => theme.aHover};
+  }
 
   hr {
     border-top: 1px solid;
@@ -152,8 +160,8 @@ export default createGlobalStyle `
   .fa-vuejs,
   .fa-node,
   .fa-java,
+  .fa-python,
   .fa-php,
-  .fa-c,
   .fa-database,
   .fa-github,
   .fa-linkedin,
@@ -173,8 +181,8 @@ export default createGlobalStyle `
   .fa-vuejs:hover,
   .fa-node:hover,
   .fa-java:hover,
+  .fa-python:hover,
   .fa-php:hover,
-  .fa-c:hover,
   .fa-database:hover,
   .fa-github:hover,
   .fa-linkedin:hover,
@@ -186,6 +194,10 @@ export default createGlobalStyle `
 
   ul {
     color: ${({ theme }) => theme.paragrafo};
+  }
+
+  .Navbar {
+    
   }
 
   .navbar-toggler {

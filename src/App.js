@@ -30,7 +30,7 @@ function App() {
       <Fragment>
         <GlobalTheme />
 
-        <div className='Navbar'>
+        <div className='Navbar shadow-sm p-3 mb-5 rounded'>
             <nav className="navbar navbar-expand-lg navbar">
                 <a className="navbar-brand" href=""><img className="img-fluid" src="/images/menuIcon.png" alt=""/></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i className="fa-solid fa-align-justify"></i></button>
@@ -57,15 +57,18 @@ function App() {
                           <a className="dropdown-item" href="https://api.whatsapp.com/send?phone=5561985019585&text=Olá%20Eduardo,%20">WhatsApp</a>
                         </div>
                     </li>
-                    <li className="nav-item">
-                    <a className="nav-link" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer"><b>My resume</b></a>
+                    <li className="nav-item dropdown">
+                      <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My resume</a>  
+                      <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf">Português</a>
+                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza_en.pdf">Inglês</a>
+                      </div>
                     </li>
                   </ul>
 
                   {/* <!-- theme switcher  --> */}
                   <div className="toggle">
                     <div className="text-right">
-                      <i className="fa-solid fa-lightbulb"></i>
                       <input id="switch" type="checkbox" name="switch-theme" onClick={toggleTheme}/>
                       <label htmlFor="switch"></label>
                     </div>
@@ -88,16 +91,19 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                Computer science student at the higher education institution Catholic University of Brasília (8th semester), programming notions in both front-end and back-end development. I define myself as an active person who aims to anticipate problems, needs or future changes. I can easily participate in teamwork helping to solve problems, I am communicative, agile and helpful.
+                I attended the higher education institution Universidade Católica de Brasília - UCB, experience and notions of
+programming in fullstack development (client-side and server-side, frameworks and database). Active, always
+looking for the best way to deal and premeditate in several situations. I participate easily in teamwork helping to
+solve problems, communicative, agile and helpful.
                 </p>
               </div>
             </div>
 
-            <div className="row">
+            {/* <div className="row">
               <div className="col-12 text-center">
-                <img className="img-fluid" src="/images/3bbed2c7-7f0a-497a-aa0b-57652d31cafd.png" alt="" width={355}/>
+                <img className="img-fluid float-center imagem-perfil" src="/images/86f21215-633f-4e41-ab5c-2a1f0118572a.png" alt="" width={255}/>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
@@ -124,36 +130,143 @@ function App() {
                   <i className="fa-brands fa-js-square" title="JavaScript"></i>
                   <i className="fa-brands fa-node" title="Node.js"></i>
                   <i className="fa-brands fa-java" title="Java"></i>
+                  <i className="fa-brands fa-python" title="Python"></i>
+                  <i className="fa-brands fa-php" title="PHP"></i>
                   <i className="fa-brands fa-react" title="React.js"></i>
                   <i className="fa-brands fa-vuejs" title="VUE.js"></i>
                   <i className="fa-brands fa-html5" title="HTML5"></i>
                   <i className="fa-brands fa-css3-alt" title="CSS3"></i>
-                  <i className="fa-brands fa-php" title="PHP"></i>
-                  <i className="fa-brands fa-c" title="C"></i>
                   <i className="fa-solid fa-database" title="MySQL Relational Database Management System"></i>
                 </div>
               </div>
-              
-              <div className="row">
-                <div className="col-12">
-                <p>
-                  Working methods and developed activities:
-                </p>
-                
-                <ul>
-                  <li>Agile methods (sprints) with GitHub Projects, Jyra and Trello;</li>
-                  <li>Challenge Based Learning (CBL);</li>
-                  <li>UX/UI with Figma;</li>
-                  <li>Responsive development (mobile view);</li>
-                  <li>Software analysis and design (documentation);</li>
-                  <li>
-                    Web - Javascript, Angular, React.js, Next, Vue.js, Node.js, HTML, CSS, jQuery, Bootstrap, Webpack, Gulp and MySQL;
-                  </li>
-                  <li>
-                    Java fundamentals - POO, Functional Programming, MongoDB, Spring Boot, JavaFX, JPA and Hibernate.
-                  </li>
-                </ul>
+          </div>
+        </section>
+
+        {/* Métodos de trabalho e atividades desenvolvidas */}
+        <section>
+          <div className="container" id="experiencias">
+            <div className="row">
+              <div className="col-12">
+                <p>Working methods and developed activities</p>
               </div>
+            </div>
+
+            <div className="row">
+              <ul>
+                <li>Agile methods (sprints) with GitHub Projects, Jyra and Trello;</li>
+                <li>Challenge Based Learning (CBL);</li>
+                <li>UX/UI with Figma;</li>
+                <li>Responsive development (mobile view);</li>
+                <li>Software analysis and design (documentation);</li>
+                <li>
+                  Web - Javascript, Angular, React.js, Next, Vue.js, Node.js, HTML, CSS, jQuery, Bootstrap, Webpack, Gulp and MySQL;
+                </li>
+                <li>
+                  Java fundamentals - POO, Functional Programming, MongoDB, Spring Boot, JavaFX, JPA and Hibernate.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Experiências profissionais */}
+        <section>
+          <div className="container" id="experiencias">
+            <hr/>
+            
+            <div className="row">
+              <div className="col-12 text-center">
+                <h1>Professional experiences</h1>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-12">
+                <p>
+                  <b>WEB/CODIM | CENTRAL BANK OF BRAZIL | 2021 - 2022</b>
+                </p>
+              </div>
+            </div>
+
+            <div className="row">
+              <ul>
+                <li>
+                  Member of the web development team;
+                </li>
+                <li>
+                  Maintenance, content updates and code corrections on the site pages and on the SharePoint corporate intranet of the Central Bank of Brazil;
+                </li>
+                <li>
+                  Migration with the IT Department of old structures to the new format;
+                </li>
+                <li>
+                  Publishing of documents and other files on the pages;
+                </li>
+                <li>
+                  Other activities related to the course.
+                </li>
+              </ul>
+            </div>
+
+            <div className="row">
+              <div className="col-12">
+                <p>
+                  <b>DEVELOPMENT OF THE SYSTEM OF REGISTRATION AND MANAGEMENT OF EXTENSION PROJECTS OF THE CATHOLIC UNIVERSITY OF BRASÍLIA | JAN 2022 - DEC 2022</b>
+                </p>
+              </div>
+            </div>
+
+            <div className="row">
+              <ul>
+                <li>
+                  Acting and coordinating on the front-end developed with React (using the Matrial-UI component library). I was also present in the back-end development. Project developed with the help of agile methods (Scrum with board in GitHub projects and Challenge Based Learning), the responsive web application (MVP) was developed in order to improve and automate the entire existing structure, which involves teachers, students and foreigners in the process of administration, registration and participation in the university extension projects. <b>This project was presented and defended to the board of the Universidade Católica de Brasília as the end-of-course thesis, obtaining maximum grade.</b>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* Other Experiences */}
+        <section>
+          <div className="container" id="experiencias">
+            <hr/>
+            
+            <div className="row">
+              <div className="col-12 text-center">
+                <h1>Other experiences</h1>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-12">
+                <p>
+                  <b>Node, Java and Python together with the React and Vue.js front-end libraries</b>
+                </p>
+              </div>
+            </div>
+
+            <div className="row">
+              <ul>
+                <li>
+                  To develop REASTful applications. Repositories available on Github.
+                </li>
+              </ul>
+            </div>
+
+            <div className="row">
+              <div className="col-12">
+                <p>
+                  <b>Java, C and PHP in the development of several personal projects</b>
+                </p>
+              </div>
+            </div>
+
+            <div className="row">
+              <ul>
+                <li>
+                  I have developed personal projects using several libraries and tools related to the languages, for example build automation tool (Maven), microservices with SpringBoot and Flask and other dependencies. Repositories available on my GitHub. 
+                </li>
+              </ul>
             </div>
           </div>
         </section>
@@ -186,7 +299,7 @@ function App() {
               </div>
             </div>
 
-            <div className="row">
+            <div className="row mt-3">
               <div className="col-12">
                 <p>
                   Here are details about some of my repositories on GitHub:
@@ -200,64 +313,6 @@ function App() {
             <br/><br/>
           </div>
         </section>
-
-        {/* Experiências profissionais */}
-      <section>
-        <div className="container" id="experiencias">
-          <hr/>
-          
-          <div className="row">
-            <div className="col-12 text-center">
-              <h1>Professional experiences</h1>
-            </div>
-          </div>
-
-          <div className="row">
-            <div className="col-12">
-              <p>
-                <b>WEB/CODIM | CENTRAL BANK OF BRAZIL | MAR OF 2021 - CURRENT</b>
-              </p>
-            </div>
-          </div>
-
-          <div className="row">
-            <ul>
-              <li>
-                Member of the web development team;
-              </li>
-              <li>
-                Maintenance, content updates and code corrections on the site pages and on the SharePoint corporate intranet of the Central Bank of Brazil;
-              </li>
-              <li>
-                Migration with the IT Department of old structures to the new format;
-              </li>
-              <li>
-                Publishing of documents and other files on the pages;
-              </li>
-              <li>
-                Other activities related to the course.
-              </li>
-            </ul>
-          </div>
-
-          <div className="row">
-            <div className="col-12">
-              <p>
-                <b>DEVELOPMENT OF THE SYSTEM OF REGISTRATION AND MANAGEMENT OF EXTENSION PROJECTS OF THE CATHOLIC UNIVERSITY OF BRASÍLIA | JAN 2022 - CURRENT</b>
-              </p>
-            </div>
-          </div>
-
-          <div className="row">
-            <ul>
-              <li>
-                Acting and coordinating the front-end developed with React (Matrial-UI), we used Axios to help with the REST API part of the project. Project developed with the help of agile methods (Scrum on GitHub Projects and Challenge Based Learning), the web application was developed to improve and automate the entire existing structure, which involves teachers, students and foreigners in the process of administration, registration and participation in the university's extension projects (repositorie currently private).
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
 
         {/* Entre em contato comigo */}
         <section>
@@ -275,7 +330,7 @@ function App() {
                   <i className="fa-solid fa-location-dot"></i> Brasília - DF/Brasil
                 </p>
                 <p>
-                  I am always learning, you can get in touch with me through the following networks:
+                  I'm always learning, you can get in touch with me through the following networks:
                 </p>
 
                 
@@ -298,7 +353,7 @@ function App() {
                   
               {/* Imagem de perfil */}
               <div className="col-md-4 col-12 text-center mt-md-0 mt-2">
-                <img className="img-fluid float-center imagem-perfil" src="/images/86f21215-633f-4e41-ab5c-2a1f0118572a.png" alt="" width={255}/>
+                <img className="img-fluid float-center imagem-perfil" src="/images/perfil.jpeg" alt="" width={255}/>
               </div>
             </div>
             <hr/>
