@@ -3,9 +3,9 @@ import React, { Fragment, useState, useEffect } from "react";
 import { ThemeProvider } from "styled-components";
 import { lightTheme, darkTheme } from "./theme";
 import GlobalTheme from "./globals";
-import BotaoTop from "./BotaoTop";
-import Typewriter from "./Typewriter";
-import Repositories from "./Repositories";
+import BotaoTop from "./components/BotaoTop";
+import Typewriter from "./components/Typewriter";
+import Repositories from "./components/Repositories";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -60,8 +60,8 @@ function App() {
                     <li className="nav-item dropdown">
                       <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My resume</a>  
                       <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf">Português</a>
-                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza_en.pdf">Inglês</a>
+                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf">pt-BR</a>
+                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza_en.pdf">en-US</a>
                       </div>
                     </li>
                   </ul>
@@ -92,7 +92,7 @@ function App() {
               <div className="col-12">
                 <p>
                 I attended the higher education institution Universidade Católica de Brasília - UCB, experience and notions of
-programming in fullstack development (client-side and server-side, frameworks and database). Active, always
+programming in full stack development (client-side and server-side, frameworks and database). Active, always
 looking for the best way to deal and premeditate in several situations. I participate easily in teamwork helping to
 solve problems, communicative, agile and helpful.
                 </p>
@@ -127,16 +127,15 @@ solve problems, communicative, agile and helpful.
               
               <div className="row">
                 <div className="col-12 text-center">
-                  <i className="fa-brands fa-js-square" title="JavaScript"></i>
+                  <i className="fa-brands fa-js-square" title="JavaScript and TypeScript"></i>
                   <i className="fa-brands fa-node" title="Node.js"></i>
-                  <i className="fa-brands fa-java" title="Java"></i>
-                  <i className="fa-brands fa-python" title="Python"></i>
-                  <i className="fa-brands fa-php" title="PHP"></i>
                   <i className="fa-brands fa-react" title="React.js"></i>
                   <i className="fa-brands fa-vuejs" title="VUE.js"></i>
-                  <i className="fa-brands fa-html5" title="HTML5"></i>
-                  <i className="fa-brands fa-css3-alt" title="CSS3"></i>
-                  <i className="fa-solid fa-database" title="MySQL Relational Database Management System"></i>
+                  <i className="fa-brands fa-java" title="Java"></i>
+                  <i className="fa-brands fa-php" title="PHP"></i>
+                  <i className="fa-brands fa-python" title="Python"></i>
+                  <i className="fa-brands fa-docker" title="Docker"></i>
+                  <i className="fa-solid fa-database" title="MySQL and MongoDB"></i>
                 </div>
               </div>
           </div>
@@ -163,6 +162,12 @@ solve problems, communicative, agile and helpful.
                 </li>
                 <li>
                   Java fundamentals - POO, Functional Programming, MongoDB, Spring Boot, JavaFX, JPA and Hibernate.
+                </li>
+                <li>
+                  Database management with MySQL and MongoDB.
+                </li>
+                <li>
+                  Build, share, and run containerized application development on Docker. 
                 </li>
               </ul>
             </div>
@@ -256,7 +261,7 @@ solve problems, communicative, agile and helpful.
             <div className="row">
               <div className="col-12">
                 <p>
-                  <b>Java, C and PHP in the development of several personal projects</b>
+                  <b>Java, PHP and Python on the development of several personal projects foucsed on the server-side</b>
                 </p>
               </div>
             </div>
@@ -264,7 +269,7 @@ solve problems, communicative, agile and helpful.
             <div className="row">
               <ul>
                 <li>
-                  I have developed personal projects using several libraries and tools related to the languages, for example build automation tool (Maven), microservices with SpringBoot and Flask and other dependencies. Repositories available on my GitHub. 
+                  I have developed personal projects using several libraries and tools related to the languages, for example build automation tool (Maven), microservices with SpringBoot and Flask, PDO (PHP Data Object) in PHP and other dependencies. Repositories available on my GitHub. 
                 </li>
               </ul>
             </div>
