@@ -153,8 +153,6 @@ export default createGlobalStyle `
     border-radius: 50%;
   }
 
-  .fa-html5,
-  .fa-css3-alt,
   .fa-js-square,
   .fa-react,
   .fa-vuejs,
@@ -162,6 +160,7 @@ export default createGlobalStyle `
   .fa-java,
   .fa-python,
   .fa-php,
+  .fa-docker,
   .fa-database,
   .fa-github,
   .fa-linkedin,
@@ -174,8 +173,6 @@ export default createGlobalStyle `
     transition: transform .2s;
   }
 
-  .fa-html5:hover,
-  .fa-css3-alt:hover,
   .fa-js-square:hover,
   .fa-react:hover,
   .fa-vuejs:hover,
@@ -183,6 +180,7 @@ export default createGlobalStyle `
   .fa-java:hover,
   .fa-python:hover,
   .fa-php:hover,
+  .fa-docker:hover,
   .fa-database:hover,
   .fa-github:hover,
   .fa-linkedin:hover,
