@@ -91,17 +91,10 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                Full-stack developer with a bachelor's degree in Computer Science from Universidade Católica de Brasília (UCB), experience in client-side and server-side development, frameworks and databases. Active, always looking for the best way to handle and premeditate in various situations. I participate easily in teamwork helping to solve problems, communicative, agile and helpful.
-
+                Full-stack developer with a bachelor's degree in Computer Science from Universidade Católica de Brasília (UCB), experience in client-side and server-side development, frameworks and databases. Active, always looking for the best way to handle and premeditate possible problems. I participate easily in teamwork, communicative, technical, agile and helpful.
                 </p>
               </div>
             </div>
-
-            {/* <div className="row">
-              <div className="col-12 text-center">
-                <img className="img-fluid float-center imagem-perfil" src="/images/86f21215-633f-4e41-ab5c-2a1f0118572a.png" alt="" width={255}/>
-              </div>
-            </div> */}
           </div>
         </section>
 
@@ -125,38 +118,27 @@ function App() {
               
               <div className="row">
                 <div className="col-12 text-center">
-                  {/* <i className="fa-brands fa-js-square" title="JavaScript and TypeScript"></i>
-                  <i className="fa-brands fa-node" title="Node.js"></i>
-                  <i className="fa-brands fa-react" title="React.js"></i>
-                  <i className="fa-brands fa-vuejs" title="VUE.js"></i>
-                  <i className="fa-brands fa-java" title="Java"></i>
-                  <i className="fa-brands fa-php" title="PHP"></i>
-                  <i className="fa-brands fa-laravel" title="Laravel"></i>
-                  <i className="fa-brands fa-python" title="Python"></i>
-                  <i className="fa-brands fa-docker" title="Docker"></i>
-                  <i className="fa-solid fa-database" title="MySQL and MongoDB"></i> */}
-                
-                  <a href="https://nodejs.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://expressjs.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="40" style={{margin: 5, backgroundColor: 'white'}}/></a>  
-                  <a href="https://www.javascript.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="40" style={{margin: 5}}/></a>   
-                  <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://reactjs.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://redux.js.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://nextjs.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://mui.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/mui.png" alt="Material UI" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://vuejs.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" alt="Vue.js" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://www.tailwindcss.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" alt="Tailwind CSS" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://www.php.net/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://laravel.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/laravel-plain-wordmark.svg" alt="Laravel" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://symfony.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/symfony_black_03.svg" alt="Symfony" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://codeigniter.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/codeigniter.svg" alt="CodeIgniter" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://www.java.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://www.python.org/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://flask.palletsprojects.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/flask.png" alt="Flask" height="40" style={{margin: 5, backgroundColor: 'white'}}/></a>  
-                  <a href="https://www.docker.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://www.nginx.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://www.mongodb.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="40" style={{margin: 5}}/></a>  
-                  <a href="https://www.mysql.com/" target="_blank"><img src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://nodejs.org/" target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/nodejs-original-wordmark.svg" alt="Node.js" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="Express.js" height="40" style={{margin: 5, backgroundColor: 'white'}}/></a>  
+                  <a href="https://www.javascript.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="40" style={{margin: 5}}/></a>   
+                  <a href="https://www.typescriptlang.org/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://reactjs.org/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://redux.js.org/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="Redux" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://nextjs.org/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/nextjs.png" alt="NextJS" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://mui.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/mui.png" alt="Material UI" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://vuejs.org/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/vuejs-original-wordmark.svg" alt="Vue.js" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://www.tailwindcss.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/tailwindcss.svg" alt="Tailwind CSS" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://www.php.net/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="PHP" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://laravel.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/laravel-plain-wordmark.svg" alt="Laravel" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://symfony.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/symfony_black_03.svg" alt="Symfony" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://codeigniter.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/codeigniter.svg" alt="CodeIgniter" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://www.java.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/java-original-wordmark.svg" alt="Java" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://www.python.org/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://flask.palletsprojects.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/flask.png" alt="Flask" height="40" style={{margin: 5, backgroundColor: 'white'}}/></a>  
+                  <a href="https://www.docker.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://www.nginx.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/nginx-original.svg" alt="Nginx" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://www.mongodb.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/mongodb-original-wordmark.svg" alt="MongoDB" height="40" style={{margin: 5}}/></a>  
+                  <a href="https://www.mysql.com/"  target="_blank" rel="noreferrer"><img src="https://profilinator.rishav.dev/skills-assets/mysql-original-wordmark.svg" alt="MySQL" height="40" style={{margin: 5}}/></a>  
                 </div>
               </div>
           </div>
@@ -209,28 +191,14 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  <b>WEB/CODIM | CENTRAL BANK OF BRAZIL | 2021 - 2022</b>
+                  <b>WEB/CODIM | CENTRAL BANK OF BRAZIL | 2021 - 2022 | REMOTE</b>
                 </p>
               </div>
             </div>
 
             <div className="row">
               <ul>
-                <li>
-                  Member of the web development team;
-                </li>
-                <li>
-                  Maintenance, content updates and code corrections on the site pages and on the SharePoint corporate intranet of the Central Bank of Brazil;
-                </li>
-                <li>
-                  Migration with the IT Department of old structures to the new format;
-                </li>
-                <li>
-                  Publishing of documents and other files on the pages;
-                </li>
-                <li>
-                  Other activities related to the course.
-                </li>
+                <li>As a member of the web development team, I participated daily in the department's decisions through meetings regarding the maintenance, updating and correction of codes in the internet and corporate intranet environments of the Central Bank of Brazil. I participated in the migration of old structures to the new format, publication of documents and other files in the production environments of the bank.</li>
               </ul>
             </div>
 
@@ -245,7 +213,7 @@ function App() {
             <div className="row">
               <ul>
                 <li>
-                  Acting and coordinating on the front-end developed with React (using the Matrial-UI component library). I was also present in the back-end development. Project developed with the help of agile methods (Scrum with board in GitHub projects and Challenge Based Learning), the responsive web application (MVP) was developed in order to improve and automate the entire existing structure, which involves teachers, students and foreigners in the process of administration, registration and participation in the university extension projects. <b>This project was presented and defended to the board of the Universidade Católica de Brasília as the end-of-course thesis, obtaining maximum grade.</b>
+                Acting in the front-end team, development with React (using the Matrial-UI component library). I was also present in the back-end development in Node. Project developed with the help of agile methods (Scrum with board in GitHub projects and Challenge Based Learning), the responsive web application (MVP) was developed to improve and automate the entire existing structure, which involves teachers, students and foreigners in the administration process, registration and participation in the university extension projects. <b>This project was presented and defended to the board of the Universidade Católica de Brasília as the end-of-course thesis, obtaining maximum grade.</b>
                 </li>
               </ul>
             </div>
@@ -266,7 +234,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  <b>Node, Java and Python together with the React and Vue.js front-end libraries</b>
+                  <b>PHP, Node, Java and Python together with React and Vue.js front-end libraries:</b>
                 </p>
               </div>
             </div>
@@ -274,7 +242,7 @@ function App() {
             <div className="row">
               <ul>
                 <li>
-                  To develop REASTful applications. Repositories available on Github.
+                  To develop RESTful applications using various libraries and tools related to the languages, e.g. build automation tool (Maven), microservices with SpringBoot and Flask, Laravel with Inertia.js together with React. I have experience with MySQL and MongoDB databases. Repositories available on my GitHub.
                 </li>
               </ul>
             </div>
@@ -282,7 +250,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  <b>Java, PHP and Python on the development of several personal projects foucsed on the server-side</b>
+                  <b>InovaAsbac Challenge Hackathon</b>
                 </p>
               </div>
             </div>
@@ -290,7 +258,7 @@ function App() {
             <div className="row">
               <ul>
                 <li>
-                  I have developed personal projects using several libraries and tools related to the languages, for example build automation tool (Maven), microservices with SpringBoot and Flask, PDO (PHP Data Object) in PHP and other dependencies. Repositories available on my GitHub. 
+                  Fenasbac Institute (Sept. 06, 07 and 08, 2019 totaling 48 hours). 
                 </li>
               </ul>
             </div>
