@@ -60,8 +60,8 @@ function App() {
                     <li className="nav-item dropdown">
                       <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My resume</a>  
                       <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf">pt-BR</a>
-                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza_en.pdf">en-US</a>
+                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer">pt-BR</a>
+                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza_en.pdf" target="_blank" rel="noreferrer">en-US</a>
                       </div>
                     </li>
                   </ul>
@@ -91,7 +91,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                Full-stack developer with a bachelor's degree in Computer Science from Universidade Católica de Brasília (UCB), experience in client-side and server-side development, frameworks and databases. Active, always looking for the best way to handle and premeditate possible problems. I participate easily in teamwork, communicative, technical, agile and helpful.
+                  Graduated in Computer Science from Universidade Católica de Brasília (UCB), experience in client-side and server-side development, frameworks and databases. Active, always looking for the best way to handle and premeditate possible problems. I participate easily in teamwork, communicative, technical, agile and helpful.
                 </p>
               </div>
             </div>
@@ -205,7 +205,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  <b>DEVELOPMENT OF THE SYSTEM OF REGISTRATION AND MANAGEMENT OF EXTENSION PROJECTS OF THE CATHOLIC UNIVERSITY OF BRASÍLIA | JAN 2022 - DEC 2022</b>
+                  <b>DEVELOPMENT OF THE SYSTEM OF REGISTRATION AND MANAGEMENT OF EXTENSION PROJECTS OF THE UNIVERSIDADE CATÓLICA DE BRASÍLIA | JAN 2022 - DEC 2022</b>
                 </p>
               </div>
             </div>
@@ -250,7 +250,7 @@ function App() {
             <div className="row">
               <div className="col-12">
                 <p>
-                  <b>InovaAsbac Challenge Hackathon</b>
+                  <b>InovaAsbac Challenge Hackathon:</b>
                 </p>
               </div>
             </div>
@@ -258,10 +258,31 @@ function App() {
             <div className="row">
               <ul>
                 <li>
-                  Fenasbac Institute (Sept. 06, 07 and 08, 2019 totaling 48 hours). 
+                  Fenasbac Institute
+                  <br/>
+                  <b>(Sept. 06, 07 and 08, 2019 totaling 48 hours)</b>. 
                 </li>
               </ul>
             </div>
+
+            <div className="row">
+              <div className="col-12">
+                <p>
+                  <b>Cod3r Web Development Course:</b>
+                </p>
+              </div>
+            </div>
+
+            <div className="row">
+              <ul>
+                <li>
+                  Web - Javascript, Angular, React.js, Next, Vue.js, Node.js, HTML, CSS, jQuery, Bootstrap, Webpack, Gulp and MySQL
+                  <br/>
+                  <b>(Dec. 26, 2022 totaling 97 hours)</b>. 
+                </li>
+              </ul>
+            </div>
+
           </div>
         </section>
         
