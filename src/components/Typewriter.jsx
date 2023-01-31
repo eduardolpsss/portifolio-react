@@ -1,4 +1,3 @@
-// Feito por Eduardo Pontes
 import React from "react";
 class Typewriter extends React.Component{
     render(){

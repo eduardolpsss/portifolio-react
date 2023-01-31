@@ -153,15 +153,6 @@ export default createGlobalStyle `
     border-radius: 50%;
   }
 
-  .fa-js-square,
-  .fa-react,
-  .fa-vuejs,
-  .fa-node,
-  .fa-java,
-  .fa-python,
-  .fa-php,
-  .fa-docker,
-  .fa-database,
   .fa-github,
   .fa-linkedin,
   .fa-google,
@@ -173,15 +164,6 @@ export default createGlobalStyle `
     transition: transform .2s;
   }
 
-  .fa-js-square:hover,
-  .fa-react:hover,
-  .fa-vuejs:hover,
-  .fa-node:hover,
-  .fa-java:hover,
-  .fa-python:hover,
-  .fa-php:hover,
-  .fa-docker:hover,
-  .fa-database:hover,
   .fa-github:hover,
   .fa-linkedin:hover,
   .fa-google:hover,
