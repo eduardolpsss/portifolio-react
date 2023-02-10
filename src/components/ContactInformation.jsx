@@ -36,7 +36,7 @@ export default function ContactInformation() {
                         <a href="https://api.whatsapp.com/send?phone=5561985019585&text=Olá%20Eduardo,%20%20" target="_blank" rel="noreferrer" title="Get in touch with me through WhatsApp">
                             <i className="fa-brands fa-whatsapp"></i>
                         </a>
-                        <a href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer" title="My Resume"><i className="fa-solid fa-file"></i></a>
+                        <a href="/docs/cv-eduardo-luiz-pontes-de-souza.pdf" target="_blank" rel="noreferrer" title="My Resume"><i className="fa-solid fa-file"></i></a>
                         </div>
                     </div>
                         

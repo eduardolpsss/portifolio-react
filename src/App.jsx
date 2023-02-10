@@ -66,8 +66,7 @@ function App() {
                     <li className="nav-item dropdown">
                       <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My resume</a>  
                       <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza.pdf" target="_blank" rel="noreferrer">pt-BR</a>
-                        <a className="dropdown-item" href="/docs/Eduardo-Luiz-Pontes-de-Souza_en.pdf" target="_blank" rel="noreferrer">en-US</a>
+                        <a className="dropdown-item" href="/docs/cv-eduardo-luiz-pontes-de-souza.pdf" target="_blank" rel="noreferrer">pt-BR</a>
                       </div>
                     </li>
                   </ul>
